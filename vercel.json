@@ -1,5 +1,4 @@
 {
   "builds": [{ "src": "flaskr/main.py", "use": "@vercel/python" }],
   "routes": [{ "src": "/(.*)", "dest": "flaskr/main.py" }],
-  "installCommand": "pip install --upgrade setuptools wheel pyquery"
 }
