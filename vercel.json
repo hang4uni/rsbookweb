@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "builds": [{ "src": "flaskr.py", "use": "@vercel/python" }],
-  "routes": [{ "src": "/(.*)", "dest": "flaskr.py" }]
+  "builds": [{ "src": "flaskr/main.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/(.*)", "dest": "flaskr/main.py" }]
 }
